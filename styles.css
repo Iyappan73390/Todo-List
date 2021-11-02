@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: palevioletred;
+}
+
+.container{
+    width: 500px;
+    min-height: 500px;
+    background-color: white;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: violet;
+    margin-top: 10px;
+}
+
+#inputfield{
+    margin-top: 50px;
+    margin-left: 25%;
+    padding: 7px ;
+    width: 50%;
+    border: 1px solid black;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#addtodo{
+    margin: 5px;
+    padding: 7px;
+    width: 30px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.to-dos{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
